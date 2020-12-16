@@ -1,0 +1,406 @@
+/* 初始化 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    display: block;
+    color:#fe9600;
+    text-decoration: none;
+}
+a:hover {
+    color: #fe9600;
+}
+.w {
+    width: 780px;
+    margin: 0 auto;
+}
+/* header部分 */
+.header {
+    height: 70px;
+    background-color: #fff;
+}
+.header h4 {
+    float: left;
+    font-size: 25px;
+    color: #464646;
+    line-height: 70px;
+    font-weight: 500;
+    margin-left: 45px;
+}
+.header ul {
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.header ul li {
+    float: left;
+    height: 60px;
+}
+.header ul li a {
+    display: block;
+    padding: 0 20px;
+    line-height: 51px;
+    font-size: 20px;
+    color: #777;
+}
+.header
+    ul
+    li
+    a:hover {
+    border-bottom: 5px
+        solid
+        #fe9600;
+    color: #fe9600;
+}
+.reg {
+    float: right;
+    margin: 26px
+        20px;
+    width: 50px;
+    height: 30px;
+    border-radius: 15px;
+    background: rgba(
+        252,
+        150,
+        00,
+        0.3
+    );
+}
+.reg a {
+    line-height: 28px;
+    margin-left: 10px;
+}
+
+
+/* banner部分制作 */
+.banner {
+    position: relative;
+    height: 700px;
+}
+.cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(
+        255,
+        255,
+        255,
+        0.2
+    );
+    z-index: 0;
+}
+.banner img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.center {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -60px;
+}
+.pic {
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background: rgba(
+        0,
+        0,
+        0,
+        0.5
+    );
+}
+.pic img {
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    margin: 5px;
+    z-index: 1;
+}
+.search {
+    margin-top: 40px;
+    margin-left: -230px;
+    width: 600px;
+    height: 100px;
+    border-radius: 20px;
+    background: rgba(
+        0,
+        0,
+        0,
+        0.5
+    );
+}
+.search h4 {
+    font-size: 20px;
+    color: white;
+    padding: 10px 0
+        10px 200px;
+}
+.searchson {
+    float: left;
+    height: 42px;
+    width: 411px;
+    margin-left: 105px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.search input {
+    float: left;
+    width: 361px;
+    height: 42px;
+    color: #bfbfbf;
+    background: rgba(
+        0,
+        0,
+        0,
+        0.3
+    );
+    font-size: 14px;
+    padding-left: 10px;
+}
+.search button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    border: 0;
+    background: url(../images/btn.png);
+}
+/* dicover部分 */
+.discover {
+    margin-top: 30px;
+    overflow: hidden;
+}
+.news_hd,
+.disc_hd {
+    height: 30px;
+    border-bottom: 1px
+        solid #ccc;
+}
+.news_hd h3,
+.disc_hd h3 {
+    font-weight: 500;
+    color: #444;
+}
+.disc_bd ul {
+    margin: 10px 0;
+}
+.disc_bd ul li {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 253px;
+    height: 160px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.disc_bd
+    ul
+    li:last-child {
+    margin-right: 0;
+}
+.disc_bd ul li img {
+    width: 253px;
+    height: 160px;
+}
+.disc_bd ul li p {
+    position: absolute;
+    color: #fff;
+    font-size: 25px;
+    right: 20px;
+    bottom: 10px;
+}
+/* news部分 */
+.news_hd {
+    margin-top: 30px;
+}
+
+.news_bd ul li {
+    margin: 15px 0;
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px
+        0px 20px
+        #ccc;
+}
+
+.news_bd
+    ul
+    li
+    .left,
+.news_bd
+    ul
+    li
+    .right {
+    float: right;
+}
+.news_bd
+    ul
+    li
+    .right {
+    padding: 0;
+    height: 300px;
+    width: 429px;
+}
+.news_bd
+    ul
+    li
+    .left {
+    width: 351px;
+    height: 300px;
+    text-align: right;
+    padding: 20px;
+}
+.news_bd
+    ul
+    li
+    .left
+    p {
+    margin: 18px;
+    color: #888;
+    font-size: 15px;
+}
+.news_bd
+    ul
+    li
+    .left
+    p
+    i {
+    font-size: 50px;
+}
+.news_bd
+    ul
+    li
+    .left
+    h4 {
+    margin: 18px;
+    color: #504e4e;
+    font-size: 18px;
+}
+.news_bd
+    ul
+    li
+    .right
+    img {
+    height: 100%;
+    width: 100%;
+}
+/* footer部分 */
+footer {
+    margin-top: 100px;
+    height: 70px;
+}
+footer h5 {
+    display: block;
+    width: 130px;
+    margin: 20px
+        auto;
+    color: #999;
+    font-weight: 400;
+}
+
+.register {
+    margin: 0 auto;
+    padding: 20px
+        50px;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    background: #fff;
+}
+.register h1 {
+    color: grey;
+}
+.register .input {
+    margin-top: 10px;
+}
+.register
+    .input
+    .InputText {
+    margin-top: 10px;
+}
+.register
+    .input
+    .InputText
+    input {
+    padding: 10px
+        10px;
+    border: 0;
+    border-bottom: 1px
+        solid
+        #464646;
+    background: #fff;
+    color: #464646;
+}
+.register
+    .input
+    .butten {
+    margin: 0 auto;
+}
+.register
+    .input
+    .butten
+    input {
+    width: 150px;
+    height: 30px;
+    margin-top: 15px;
+    color: #464646;
+    border-radius: 15px;
+    border: 0;
+    background: linear-gradient(
+        to bottom
+            right,
+        skyblue,
+        pink
+    );
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #fe9600;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+#myBtn2 {
+    display: none;
+    position: fixed;
+    bottom: 90px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#regPanel{
+    position:absolute;
+    z-index: 999;
+    display: none;
+    top: 200px;
+    left: 550px;
+}
